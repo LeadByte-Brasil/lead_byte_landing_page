@@ -224,7 +224,7 @@ header.scrolled {
 }
 
 .logo-icon + .logo-text {
-    padding-left: 1rem;
+    padding-left: 1.33rem;
 }
 
 .logo-text {
@@ -836,12 +836,13 @@ footer {
 }
 
 .footer-logo img {
-    height: 1.5rem;
+    height: 1.25rem;
     width: auto;
 }
 
 .footer-logo img:first-child + img {
-    padding-left: 1rem;
+    padding-left: 0.85rem;
+    height: 0.85rem;
 }
 
 .footer-desc {
