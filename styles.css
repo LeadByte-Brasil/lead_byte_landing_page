@@ -851,6 +851,43 @@ footer {
     max-width: 16rem;
 }
 
+.footer-address {
+    font-style: normal;
+    font-size: 0.875rem;
+    color: var(--muted-foreground);
+}
+
+.address-item {
+    margin-bottom: 1.25rem;
+}
+
+.address-item:last-child {
+    margin-bottom: 0;
+}
+
+.address-item .label {
+    font-weight: 600;
+    color: var(--accent-cyan);
+    margin-bottom: 0.5rem;
+    display: block;
+    font-size: 0.8rem;
+}
+
+.address-item p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.address-item a {
+    color: var(--muted-foreground);
+    text-decoration: none;
+    transition: color 300ms ease;
+}
+
+.address-item a:hover {
+    color: var(--accent-cyan);
+}
+
 .social-links {
     display: flex;
     gap: 1rem;
